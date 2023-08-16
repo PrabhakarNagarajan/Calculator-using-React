@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import Calci from './calculator';
+import React from "react";
+import Calci from "./calculator";
 
-import './App.css';
-import { Counter } from './components';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Calci/> 
+      <Calci />
       {/* <Counter/> */}
     </div>
   );
